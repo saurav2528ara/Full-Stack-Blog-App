@@ -1,0 +1,167 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #0E1428;
+}
+.navbar{
+    background-color: #1F2936;
+}
+.btn_sign{
+    color: white;
+    background-color: rgb(251, 49, 204);
+    margin-right: 50px;
+    width: 80px;
+    height: 40px;
+    border: none;
+    outline: none;
+    font-size: 17px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.hero-section {
+    position: relative;
+    padding: 150px 20px;
+    display:  flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://images.unsplash.com/photo-1554034483-04fda0d3507b?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8YmFja2dyb3VuZCUyMGNvbG9yfGVufDB8fDB8fHww');
+    background-size: cover;
+    background-position: center;
+    color: white;
+
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7);
+}
+/* Dark Theme Styling */
+
+
+/* Centered Profile Container with Margin for Adjustment */
+.profile-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+  background: #1e1e1e;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1);
+  margin-top: 50px; /* Moves it slightly down */
+}
+
+.profile-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+
+/* Form Adjustments */
+.profile-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 100%;
+}
+
+/* Profile Image Section */
+.profile-image-section {
+  position: relative;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0 auto 15px;
+}
+
+.profile-image-label {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: #2a2a2a;
+  cursor: pointer;
+  position: relative;
+}
+
+.profile-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.profile-placeholder {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #3a3a3a;
+  border-radius: 50%;
+}
+
+.profile-icon {
+  font-size: 40px;
+  color: #bbbbbb;
+}
+
+/* Camera Icon */
+.profile-camera-icon {
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  background: #007bff;
+  color: white;
+  padding: 6px;
+  border-radius: 50%;
+  font-size: 14px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.profile-image-input {
+  display: none;
+}
+
+/* Input Fields */
+.input-group {
+  display: flex;
+  align-items: center;
+  background: #2a2a2a;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.input-icon {
+  margin-right: 10px;
+  color: #bbbbbb;
+}
+
+.profile-input {
+  border: none;
+  outline: none;
+  background: transparent;
+  flex: 1;
+  font-size: 16px;
+  color: #ffffff;
+}
+
+/* Submit Button */
+.profile-button {
+  background: #007bff;
+  color: white;
+  font-size: 18px;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+  border: none;
+}
+
+.profile-button:hover {
+  background: #0056b3;
+}
