@@ -36,7 +36,6 @@ Blogs and user data are stored in MongoDB using Mongoose for data modeling.
 ### Database:
 
 * MongoDB
-* Mongoose
 
 ### Authentication:
 
