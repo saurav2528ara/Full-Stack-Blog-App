@@ -54,5 +54,4 @@ Users can view blogs, read posts, and comment on them.
 ### Admin Dashboard
 Admins can create, update, and delete blog posts from the admin dashboard.
 
-https://github.com/user-attachments/assets/f4512eab-9889-47a0-a227-b3b581d8d145
 
