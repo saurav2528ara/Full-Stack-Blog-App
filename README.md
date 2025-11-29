@@ -1,3 +1,7 @@
+## 🚀 Live Demo  
+[![Live Demo](https://img.shields.io/badge/Visit-Live%20App-blue)](https://blog-page-1-ssh0.onrender.com/)
+
+
 # Full Stack Blog App
 ### A Full Stack Blog Application built with React.js, Node.js, Express.js, and MongoDB. The app allows users to register, log in, view blogs, and comment on them. Admins have the ability to manage blogs by creating, updating, and deleting them.
 
